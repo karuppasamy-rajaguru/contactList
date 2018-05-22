@@ -64,7 +64,6 @@ function* addProduct(action) {
         yield alert()
     } catch (error) {
         yield put(actionCreators.addProductFailure(error))
-        yield alert()
     }
 }
 
